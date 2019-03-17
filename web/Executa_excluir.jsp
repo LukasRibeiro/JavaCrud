@@ -11,8 +11,9 @@
         <%
             try{
                 ProdutoDao prd = new ProdutoDao();
-                prd.delete(Integer.parseInt(request.getParameter("codigo")));                
-            }catch(){
+                prd.delete(Integer.parseInt(request.getParameter("codigo")));
+                response.sendRedirect("index.jsp");
+            }catch(Exception erro){
                 throw new RuntimeException("", erro);
             }
         %>

@@ -18,8 +18,8 @@
                     response.sendRedirect("index.jsp");   
                 }
                 else{
-                    produto.setDescricao_produto(resquest.getParameter("descricao"));
-                    produto.setPreco_produto(Double.parseDouble(request.getparameter("preco")));
+                    produto.setDescricao_produto(request.getParameter("descricao"));
+                    produto.setPreco_produto(Double.parseDouble(request.getParameter("preco")));
                     prd.create(produto);
                     response.sendRedirect("index.jsp");   
                 }
