@@ -28,7 +28,7 @@
                 <input type="number" class="form-control" placeholder="Digite preco:" name="preco" value="<%=request.getParameter("preco")%>">
             </div>
            
-            <button type="submit" class="btn btn-sucess">Alterar produto</button>
+            <button type="submit" class="btn btn-success">Alterar produto</button>
             
             </form>
         </div>

@@ -13,7 +13,7 @@
     
     <body>
         <div class="container">
-            <h2>Inserir produtos</h2>
+            <h2>Todos os produtos cadastrados</h2>
         
             <form action="index.jsp" method="post">
                 
@@ -21,16 +21,18 @@
                     <label>Descricao:</label>
                     <input type="text" class="form-control" placeholder="Digite a descricao:" name="descricao">
                 </div>    
-                <button type="submit" class="btn btn-success">OK</button>
+                <button type="submit" class="btn btn-success">Listar todos</button>
+                <a type="button" class="btn btn-success" href="inserir.jsp">Novo produto</a>
             </form>
         </div>
+
             
             <%
                 try{
                     out.print("<table>");
                     out.print("<tr>");
                     
-                    out.print("<th>Codigo</th><th>Descricao</th><th>Preco</th><th>Editar</th><th>Excluir</th>");
+                    out.println("<th>Codigo</th><th>Descricao</th><th>Preco</th><th>Editar</th><th>Excluir</th>");
                     
                     ProdutoDao prd = new ProdutoDao();
                     
@@ -43,8 +45,8 @@
                             out.print("<td>"+lista.get(num).getCodigo_produto()+"</td>");
                             out.print("<td>"+lista.get(num).getDescricao_produto()+"</td>");
                             out.print("<td>"+lista.get(num).getPreco_produto()+"</td>");
-                            out.print("<td><a href='alterar.jsp?codigo="+lista.get(num).getCodigo_produto()+"&descricao="+lista.get(num).getDescricao_produto()+"&preco="+lista.get(num).getPreco_produto()+" '>clique</a></td>");
-                            out.print("<td><a href='excluir.jsp?codigo="+lista.get(num).getCodigo_produto()+"&descricao="+lista.get(num).getDescricao_produto()+"'>clique</a></td>");
+                            out.print("<td><a href='alterar.jsp?codigo="+lista.get(num).getCodigo_produto()+"&descricao="+lista.get(num).getDescricao_produto()+"&preco="+lista.get(num).getPreco_produto()+" '>Alterar</a></td>");
+                            out.print("<td><a href='excluir.jsp?codigo="+lista.get(num).getCodigo_produto()+"&descricao="+lista.get(num).getDescricao_produto()+"'>Excluir</a></td>");
   
                             out.print("</tr>");
                         }
@@ -57,8 +59,8 @@
                             out.print("<td>"+lista.get(num).getCodigo_produto()+"</td>");
                             out.print("<td>"+lista.get(num).getDescricao_produto()+"</td>");
                             out.print("<td>"+lista.get(num).getPreco_produto()+"</td>");
-                            out.print("<td><a href='alterar.jsp?codigo="+lista.get(num).getCodigo_produto()+"&descricao="+lista.get(num).getDescricao_produto()+"&preco="+lista.get(num).getPreco_produto()+" '>clique</a></td>");
-                            out.print("<td><a href='excluir.jsp?codigo="+lista.get(num).getCodigo_produto()+"&descricao="+lista.get(num).getDescricao_produto()+"'>clique</a></td>");
+                            out.print("<td><a href='alterar.jsp?codigo="+lista.get(num).getCodigo_produto()+"&descricao="+lista.get(num).getDescricao_produto()+"&preco="+lista.get(num).getPreco_produto()+" '>Alterar</a></td>");
+                            out.print("<td><a href='excluir.jsp?codigo="+lista.get(num).getCodigo_produto()+"&descricao="+lista.get(num).getDescricao_produto()+"'>Excluir</a></td>");
   
                             out.print("</tr>");
                         }   
@@ -69,7 +71,5 @@
                     throw new RuntimeException("", erro);
                 }
             %>
-        
-            <a href="inserir.jsp">Novo produto</a>
     </body>
 </html>
