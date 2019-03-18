@@ -1,6 +1,6 @@
 package controller;
 
-import dao.ProdutoDao;
+import daoImpl.ProdutoDaoImpl;
 import javax.servlet.ServletContext;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -17,9 +17,9 @@ public class Excluir extends HttpServlet {
                     
                     //Excluindo produto
          try{
-            ProdutoDao prd = new ProdutoDao();
+            ProdutoDaoImpl prd = new ProdutoDaoImpl();
             prd.delete(Integer.parseInt(request.getParameter("codigo")));
-            response.sendRedirect("index.jsp");
+            response.sendRedirect("/jsp/index.jsp");
         }
          catch(Exception erro){
             throw new RuntimeException("", erro);
@@ -28,5 +28,4 @@ public class Excluir extends HttpServlet {
     private void processRequest(HttpServletRequest request, HttpServletResponse response) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-
 }

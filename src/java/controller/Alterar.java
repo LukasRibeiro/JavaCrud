@@ -1,6 +1,6 @@
 package controller;
 
-import dao.ProdutoDao;
+import daoImpl.ProdutoDaoImpl;
 import javax.servlet.ServletContext;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -19,10 +19,10 @@ public class Alterar extends HttpServlet {
                       //Alterando produto
          try{
             Produto produto = new Produto();
-            ProdutoDao prd = new ProdutoDao();
+            ProdutoDaoImpl prd = new ProdutoDaoImpl();
             
             if(request.getParameter("descricao").equals("") || request.getParameter("preco").equals("")){
-                response.sendRedirect("index.jsp");   
+                response.sendRedirect("/jsp/index.jsp");   
             }
             else{
                 produto.setDescricao_produto(request.getParameter("descricao"));
@@ -31,7 +31,7 @@ public class Alterar extends HttpServlet {
                 
                 prd.update(produto);
                 
-                response.sendRedirect("index.jsp");   
+                response.sendRedirect("/jsp/index.jsp");   
             }
         }catch(Exception erro){
             throw new RuntimeException("", erro);

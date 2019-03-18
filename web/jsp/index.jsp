@@ -1,5 +1,5 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@page import="dao.ProdutoDao"%>
+<%@page import="daoImpl.ProdutoDaoImpl"%>
 <%@page import="model.Produto"%>
 <%@page import="java.util.ArrayList"%>
 
@@ -18,8 +18,8 @@
             <form action="index.jsp" method="POST">
                 
                 <div class="form-group">
-                    <label>Descricao:</label>
-                    <input type="text" class="form-control" placeholder="Digite a descricao:" name="descricao">
+                    <label>Pesquisar por produtos:</label>
+                    <input type="text" class="form-control" placeholder="Digite o produto: " name="descricao">
                 </div>    
                 <button type="submit" class="btn btn-success">Listar todos</button>
                 <a type="button" class="btn btn-success" href="inserir.jsp">Novo produto</a>
@@ -32,7 +32,7 @@
                     
                     out.println("<th>Codigo</th><th>Descricao</th><th>Preco</th><th>Editar</th><th>Excluir</th>");
                     
-                    ProdutoDao prd = new ProdutoDao();
+                    ProdutoDaoImpl prd = new ProdutoDaoImpl();
                     
                     if(request.getParameter("descricao") == " " || request.getParameter("descricao") == null){
                         ArrayList<Produto> lista = prd.listarTodos();

@@ -16,7 +16,7 @@ public class Index extends HttpServlet {
                     
                     //render da pagina index
         try{
-            response.sendRedirect("index.jsp");   
+            response.sendRedirect("/jsp/index.jsp");   
        }
         catch(Exception e){
          System.out.println("erro" + e);

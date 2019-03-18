@@ -1,6 +1,6 @@
 package controller;
 
-import dao.ProdutoDao;
+import daoImpl.ProdutoDaoImpl;
 import java.io.IOException;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -21,9 +21,9 @@ public class Inserir extends HttpServlet {
                         //cadastrando produto
         try{
               Produto produto = new Produto();
-              ProdutoDao prd = new ProdutoDao();
+              ProdutoDaoImpl prd = new ProdutoDaoImpl();
               if(request.getParameter("descricao").equals("") || request.getParameter("preco").equals("")){
-                  response.sendRedirect("index.jsp");   
+                  response.sendRedirect("/jsp/index.jsp");   
               }
               else{
                   produto.setDescricao_produto(request.getParameter("descricao"));
@@ -31,7 +31,7 @@ public class Inserir extends HttpServlet {
                   
                   prd.create(produto);
                   
-                  response.sendRedirect("index.jsp");   
+                  response.sendRedirect("/jsp/index.jsp");   
               }
           }
           catch(Exception erro){
@@ -42,5 +42,4 @@ public class Inserir extends HttpServlet {
     private void processRequest(HttpServletRequest request, HttpServletResponse response) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-
 }
