@@ -13,7 +13,8 @@ public class Index extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response){
         
         ServletContext sc = request.getServletContext();
-        
+                    
+                    //render da pagina index
         try{
             response.sendRedirect("index.jsp");   
        }

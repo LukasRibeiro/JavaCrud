@@ -15,7 +15,8 @@ public class Alterar extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response){
         
         ServletContext sc = request.getServletContext();
-        
+                       
+                      //Alterando produto
          try{
             Produto produto = new Produto();
             ProdutoDao prd = new ProdutoDao();

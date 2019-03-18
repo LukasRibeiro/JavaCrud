@@ -14,7 +14,8 @@ public class Excluir extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response){
         
         ServletContext sc = request.getServletContext();
-        
+                    
+                    //Excluindo produto
          try{
             ProdutoDao prd = new ProdutoDao();
             prd.delete(Integer.parseInt(request.getParameter("codigo")));

@@ -18,6 +18,7 @@ public class Inserir extends HttpServlet {
         
          ServletContext sc = request.getServletContext();
          
+                        //cadastrando produto
         try{
               Produto produto = new Produto();
               ProdutoDao prd = new ProdutoDao();
