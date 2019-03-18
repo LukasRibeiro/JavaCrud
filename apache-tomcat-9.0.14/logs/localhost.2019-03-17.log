@@ -1,0 +1,791 @@
+17-Mar-2019 15:29:02.380 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+17-Mar-2019 15:29:02.383 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+17-Mar-2019 15:29:02.387 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@394df057')
+17-Mar-2019 15:32:27.260 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+17-Mar-2019 15:32:27.260 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+17-Mar-2019 15:32:55.357 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+17-Mar-2019 15:32:55.358 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+17-Mar-2019 15:32:55.362 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7bf3a5d8')
+17-Mar-2019 15:33:28.585 GRAVE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Mercado] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [21] in the jsp file: [/Executa_inserir.jsp]
+resquest cannot be resolved
+18:                     response.sendRedirect("index.jsp");   
+19:                 }
+20:                 else{
+21:                     produto.setDescricao_produto(resquest.getParameter("descricao"));
+22:                     produto.setPreco_produto(Double.parseDouble(request.getparameter("preco")));
+23:                     prd.create(produto);
+24:                     response.sendRedirect("index.jsp");   
+
+
+An error occurred at line: [22] in the jsp file: [/Executa_inserir.jsp]
+The method getparameter(String) is undefined for the type HttpServletRequest
+19:                 }
+20:                 else{
+21:                     produto.setDescricao_produto(resquest.getParameter("descricao"));
+22:                     produto.setPreco_produto(Double.parseDouble(request.getparameter("preco")));
+23:                     prd.create(produto);
+24:                     response.sendRedirect("index.jsp");   
+25:                 }
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [21] in the jsp file: [/Executa_inserir.jsp]
+resquest cannot be resolved
+18:                     response.sendRedirect("index.jsp");   
+19:                 }
+20:                 else{
+21:                     produto.setDescricao_produto(resquest.getParameter("descricao"));
+22:                     produto.setPreco_produto(Double.parseDouble(request.getparameter("preco")));
+23:                     prd.create(produto);
+24:                     response.sendRedirect("index.jsp");   
+
+
+An error occurred at line: [22] in the jsp file: [/Executa_inserir.jsp]
+The method getparameter(String) is undefined for the type HttpServletRequest
+19:                 }
+20:                 else{
+21:                     produto.setDescricao_produto(resquest.getParameter("descricao"));
+22:                     produto.setPreco_produto(Double.parseDouble(request.getparameter("preco")));
+23:                     prd.create(produto);
+24:                     response.sendRedirect("index.jsp");   
+25:                 }
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:473)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+17-Mar-2019 15:35:04.989 GRAVE [http-nio-8080-exec-13] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Mercado] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [21] in the jsp file: [/Executa_inserir.jsp]
+resquest cannot be resolved
+18:                     response.sendRedirect("index.jsp");   
+19:                 }
+20:                 else{
+21:                     produto.setDescricao_produto(resquest.getParameter("descricao"));
+22:                     produto.setPreco_produto(Double.parseDouble(request.getparameter("preco")));
+23:                     prd.create(produto);
+24:                     response.sendRedirect("index.jsp");   
+
+
+An error occurred at line: [22] in the jsp file: [/Executa_inserir.jsp]
+The method getparameter(String) is undefined for the type HttpServletRequest
+19:                 }
+20:                 else{
+21:                     produto.setDescricao_produto(resquest.getParameter("descricao"));
+22:                     produto.setPreco_produto(Double.parseDouble(request.getparameter("preco")));
+23:                     prd.create(produto);
+24:                     response.sendRedirect("index.jsp");   
+25:                 }
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [21] in the jsp file: [/Executa_inserir.jsp]
+resquest cannot be resolved
+18:                     response.sendRedirect("index.jsp");   
+19:                 }
+20:                 else{
+21:                     produto.setDescricao_produto(resquest.getParameter("descricao"));
+22:                     produto.setPreco_produto(Double.parseDouble(request.getparameter("preco")));
+23:                     prd.create(produto);
+24:                     response.sendRedirect("index.jsp");   
+
+
+An error occurred at line: [22] in the jsp file: [/Executa_inserir.jsp]
+The method getparameter(String) is undefined for the type HttpServletRequest
+19:                 }
+20:                 else{
+21:                     produto.setDescricao_produto(resquest.getParameter("descricao"));
+22:                     produto.setPreco_produto(Double.parseDouble(request.getparameter("preco")));
+23:                     prd.create(produto);
+24:                     response.sendRedirect("index.jsp");   
+25:                 }
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:473)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+17-Mar-2019 15:37:58.311 GRAVE [http-nio-8080-exec-16] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Mercado] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [18] in the jsp file: [/alterar.jsp]
+Syntax error, insert ";" to complete Statement
+15:             
+16:             <div class="form-group">
+17:                 <label>Codigo</label>
+18:                 <input type="text" class="form-control" placeholder="Digite codigo" name="codigo" value="<%request.getParameter("codigo")%>">
+19:             </div>
+20:             
+21:             <div class="form-group">
+
+
+An error occurred at line: [23] in the jsp file: [/alterar.jsp]
+Syntax error, insert ";" to complete Statement
+20:             
+21:             <div class="form-group">
+22:                 <label>Descricao:</label>
+23:                 <input type="text" class="form-control" placeholder="Digite a descricao:" name="descricao" value="<%request.getParameter("descricao")%>">
+24:             </div>
+25:                 
+26:             <div class="form-group">
+
+
+An error occurred at line: [28] in the jsp file: [/alterar.jsp]
+Syntax error, insert ";" to complete Statement
+25:                 
+26:             <div class="form-group">
+27:                 <label>Preco:</label>
+28:                 <input type="number" class="form-control" placeholder="Digite preco:" name="preco" value="<%request.getParameter("preco")%>">
+29:             </div>
+30:            
+31:             <button type="submit" class="btn btn-sucess">Alterar produto</button>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [18] in the jsp file: [/alterar.jsp]
+Syntax error, insert ";" to complete Statement
+15:             
+16:             <div class="form-group">
+17:                 <label>Codigo</label>
+18:                 <input type="text" class="form-control" placeholder="Digite codigo" name="codigo" value="<%request.getParameter("codigo")%>">
+19:             </div>
+20:             
+21:             <div class="form-group">
+
+
+An error occurred at line: [23] in the jsp file: [/alterar.jsp]
+Syntax error, insert ";" to complete Statement
+20:             
+21:             <div class="form-group">
+22:                 <label>Descricao:</label>
+23:                 <input type="text" class="form-control" placeholder="Digite a descricao:" name="descricao" value="<%request.getParameter("descricao")%>">
+24:             </div>
+25:                 
+26:             <div class="form-group">
+
+
+An error occurred at line: [28] in the jsp file: [/alterar.jsp]
+Syntax error, insert ";" to complete Statement
+25:                 
+26:             <div class="form-group">
+27:                 <label>Preco:</label>
+28:                 <input type="number" class="form-control" placeholder="Digite preco:" name="preco" value="<%request.getParameter("preco")%>">
+29:             </div>
+30:            
+31:             <button type="submit" class="btn btn-sucess">Alterar produto</button>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:473)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+17-Mar-2019 15:38:01.245 GRAVE [http-nio-8080-exec-19] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Mercado] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [18] in the jsp file: [/excluir.jsp]
+Syntax error, insert ";" to complete Statement
+15:             
+16:             <div class="form-group">
+17:                 <label>Codigo</label>
+18:                 <input type="text" class="form-control" placeholder="Digite codigo" name="codigo" value="<%request.getParameter("codigo")%>">
+19:             </div>
+20:             
+21:             <div class="form-group">
+
+
+An error occurred at line: [23] in the jsp file: [/excluir.jsp]
+Syntax error, insert ";" to complete Statement
+20:             
+21:             <div class="form-group">
+22:                 <label>Descricao:</label>
+23:                 <input type="text" class="form-control" placeholder="Digite a descricao:" name="descricao" value="<%request.getParameter("descricao")%>">
+24:             </div>
+25:            
+26:             <button type="submit" class="btn btn-danger">Deletar produto</button>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [18] in the jsp file: [/excluir.jsp]
+Syntax error, insert ";" to complete Statement
+15:             
+16:             <div class="form-group">
+17:                 <label>Codigo</label>
+18:                 <input type="text" class="form-control" placeholder="Digite codigo" name="codigo" value="<%request.getParameter("codigo")%>">
+19:             </div>
+20:             
+21:             <div class="form-group">
+
+
+An error occurred at line: [23] in the jsp file: [/excluir.jsp]
+Syntax error, insert ";" to complete Statement
+20:             
+21:             <div class="form-group">
+22:                 <label>Descricao:</label>
+23:                 <input type="text" class="form-control" placeholder="Digite a descricao:" name="descricao" value="<%request.getParameter("descricao")%>">
+24:             </div>
+25:            
+26:             <button type="submit" class="btn btn-danger">Deletar produto</button>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:473)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+17-Mar-2019 15:39:53.124 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+17-Mar-2019 15:39:53.124 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+17-Mar-2019 15:40:35.206 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+17-Mar-2019 15:40:35.206 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+17-Mar-2019 15:40:35.209 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7bf3a5d8')
+17-Mar-2019 15:41:51.015 GRAVE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Mercado] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [18] in the jsp file: [/alterar.jsp]
+Syntax error, insert ";" to complete Statement
+15:             
+16:             <div class="form-group">
+17:                 <label>Codigo</label>
+18:                 <input type="text" class="form-control" placeholder="Digite codigo" name="codigo" value="<%request.getParameter("codigo")%>">
+19:             </div>
+20:             
+21:             <div class="form-group">
+
+
+An error occurred at line: [23] in the jsp file: [/alterar.jsp]
+Syntax error, insert ";" to complete Statement
+20:             
+21:             <div class="form-group">
+22:                 <label>Descricao:</label>
+23:                 <input type="text" class="form-control" placeholder="Digite a descricao:" name="descricao" value="<%request.getParameter("descricao")%>">
+24:             </div>
+25:                 
+26:             <div class="form-group">
+
+
+An error occurred at line: [28] in the jsp file: [/alterar.jsp]
+Syntax error, insert ";" to complete Statement
+25:                 
+26:             <div class="form-group">
+27:                 <label>Preco:</label>
+28:                 <input type="number" class="form-control" placeholder="Digite preco:" name="preco" value="<%request.getParameter("preco")%>">
+29:             </div>
+30:            
+31:             <button type="submit" class="btn btn-sucess">Alterar produto</button>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [18] in the jsp file: [/alterar.jsp]
+Syntax error, insert ";" to complete Statement
+15:             
+16:             <div class="form-group">
+17:                 <label>Codigo</label>
+18:                 <input type="text" class="form-control" placeholder="Digite codigo" name="codigo" value="<%request.getParameter("codigo")%>">
+19:             </div>
+20:             
+21:             <div class="form-group">
+
+
+An error occurred at line: [23] in the jsp file: [/alterar.jsp]
+Syntax error, insert ";" to complete Statement
+20:             
+21:             <div class="form-group">
+22:                 <label>Descricao:</label>
+23:                 <input type="text" class="form-control" placeholder="Digite a descricao:" name="descricao" value="<%request.getParameter("descricao")%>">
+24:             </div>
+25:                 
+26:             <div class="form-group">
+
+
+An error occurred at line: [28] in the jsp file: [/alterar.jsp]
+Syntax error, insert ";" to complete Statement
+25:                 
+26:             <div class="form-group">
+27:                 <label>Preco:</label>
+28:                 <input type="number" class="form-control" placeholder="Digite preco:" name="preco" value="<%request.getParameter("preco")%>">
+29:             </div>
+30:            
+31:             <button type="submit" class="btn btn-sucess">Alterar produto</button>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:473)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+17-Mar-2019 15:42:58.330 GRAVE [http-nio-8080-exec-12] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Mercado] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [18] in the jsp file: [/alterar.jsp]
+Syntax error, insert ";" to complete Statement
+15:             
+16:             <div class="form-group">
+17:                 <label>Codigo</label>
+18:                 <input type="text" class="form-control" placeholder="Digite codigo" name="codigo" value="<%request.getParameter("codigo")%>">
+19:             </div>
+20:             
+21:             <div class="form-group">
+
+
+An error occurred at line: [23] in the jsp file: [/alterar.jsp]
+Syntax error, insert ";" to complete Statement
+20:             
+21:             <div class="form-group">
+22:                 <label>Descricao:</label>
+23:                 <input type="text" class="form-control" placeholder="Digite a descricao:" name="descricao" value="<%request.getParameter("descricao")%>">
+24:             </div>
+25:                 
+26:             <div class="form-group">
+
+
+An error occurred at line: [28] in the jsp file: [/alterar.jsp]
+Syntax error, insert ";" to complete Statement
+25:                 
+26:             <div class="form-group">
+27:                 <label>Preco:</label>
+28:                 <input type="number" class="form-control" placeholder="Digite preco:" name="preco" value="<%request.getParameter("preco")%>">
+29:             </div>
+30:            
+31:             <button type="submit" class="btn btn-sucess">Alterar produto</button>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [18] in the jsp file: [/alterar.jsp]
+Syntax error, insert ";" to complete Statement
+15:             
+16:             <div class="form-group">
+17:                 <label>Codigo</label>
+18:                 <input type="text" class="form-control" placeholder="Digite codigo" name="codigo" value="<%request.getParameter("codigo")%>">
+19:             </div>
+20:             
+21:             <div class="form-group">
+
+
+An error occurred at line: [23] in the jsp file: [/alterar.jsp]
+Syntax error, insert ";" to complete Statement
+20:             
+21:             <div class="form-group">
+22:                 <label>Descricao:</label>
+23:                 <input type="text" class="form-control" placeholder="Digite a descricao:" name="descricao" value="<%request.getParameter("descricao")%>">
+24:             </div>
+25:                 
+26:             <div class="form-group">
+
+
+An error occurred at line: [28] in the jsp file: [/alterar.jsp]
+Syntax error, insert ";" to complete Statement
+25:                 
+26:             <div class="form-group">
+27:                 <label>Preco:</label>
+28:                 <input type="number" class="form-control" placeholder="Digite preco:" name="preco" value="<%request.getParameter("preco")%>">
+29:             </div>
+30:            
+31:             <button type="submit" class="btn btn-sucess">Alterar produto</button>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:473)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+17-Mar-2019 15:43:05.167 GRAVE [http-nio-8080-exec-13] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Mercado] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [18] in the jsp file: [/excluir.jsp]
+Syntax error, insert ";" to complete Statement
+15:             
+16:             <div class="form-group">
+17:                 <label>Codigo</label>
+18:                 <input type="text" class="form-control" placeholder="Digite codigo" name="codigo" value="<%request.getParameter("codigo")%>">
+19:             </div>
+20:             
+21:             <div class="form-group">
+
+
+An error occurred at line: [23] in the jsp file: [/excluir.jsp]
+Syntax error, insert ";" to complete Statement
+20:             
+21:             <div class="form-group">
+22:                 <label>Descricao:</label>
+23:                 <input type="text" class="form-control" placeholder="Digite a descricao:" name="descricao" value="<%request.getParameter("descricao")%>">
+24:             </div>
+25:            
+26:             <button type="submit" class="btn btn-danger">Deletar produto</button>
+
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [18] in the jsp file: [/excluir.jsp]
+Syntax error, insert ";" to complete Statement
+15:             
+16:             <div class="form-group">
+17:                 <label>Codigo</label>
+18:                 <input type="text" class="form-control" placeholder="Digite codigo" name="codigo" value="<%request.getParameter("codigo")%>">
+19:             </div>
+20:             
+21:             <div class="form-group">
+
+
+An error occurred at line: [23] in the jsp file: [/excluir.jsp]
+Syntax error, insert ";" to complete Statement
+20:             
+21:             <div class="form-group">
+22:                 <label>Descricao:</label>
+23:                 <input type="text" class="form-control" placeholder="Digite a descricao:" name="descricao" value="<%request.getParameter("descricao")%>">
+24:             </div>
+25:            
+26:             <button type="submit" class="btn btn-danger">Deletar produto</button>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:473)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+17-Mar-2019 15:45:49.485 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+17-Mar-2019 15:45:49.485 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+17-Mar-2019 15:49:05.441 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+17-Mar-2019 15:49:05.443 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+17-Mar-2019 15:49:05.449 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@189cbd7c')
+17-Mar-2019 15:52:28.876 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+17-Mar-2019 15:52:28.877 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+17-Mar-2019 16:26:17.130 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+17-Mar-2019 16:26:17.130 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+17-Mar-2019 16:26:17.133 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@707194ba')
+17-Mar-2019 16:29:17.172 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+17-Mar-2019 16:29:17.172 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+17-Mar-2019 16:32:54.790 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+17-Mar-2019 16:32:54.790 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+17-Mar-2019 16:32:54.794 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7bf3a5d8')
+17-Mar-2019 16:34:23.322 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+17-Mar-2019 16:34:23.322 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+17-Mar-2019 16:37:13.124 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+17-Mar-2019 16:37:13.124 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+17-Mar-2019 16:37:13.128 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7bf3a5d8')
+17-Mar-2019 16:53:13.414 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+17-Mar-2019 16:53:13.414 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+17-Mar-2019 17:28:15.263 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+17-Mar-2019 17:28:15.263 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+17-Mar-2019 17:28:15.267 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3214ee6')
+17-Mar-2019 17:32:54.124 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+17-Mar-2019 17:32:54.124 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+17-Mar-2019 23:27:29.386 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+17-Mar-2019 23:27:29.386 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+17-Mar-2019 23:27:29.390 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@383dc82c')
+17-Mar-2019 23:28:50.329 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+17-Mar-2019 23:28:50.329 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+17-Mar-2019 23:56:25.440 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+17-Mar-2019 23:56:25.441 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+17-Mar-2019 23:56:25.444 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1df8b5b8')
+17-Mar-2019 23:56:30.614 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Marking servlet [index] as unavailable
+17-Mar-2019 23:56:30.615 GRAVE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Allocate exception for servlet [index]
+ java.lang.ClassNotFoundException: controller.index
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1343)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1173)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:540)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:521)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:150)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1031)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:761)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:133)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+17-Mar-2019 23:57:33.711 INFORMAÇÕES [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Marking servlet [index] as unavailable
+17-Mar-2019 23:57:33.712 GRAVE [http-nio-8080-exec-11] org.apache.catalina.core.StandardWrapperValve.invoke Allocate exception for servlet [index]
+ java.lang.ClassNotFoundException: controller.index
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1343)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1173)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:540)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:521)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:150)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1031)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:761)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:133)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+17-Mar-2019 23:58:16.263 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+17-Mar-2019 23:58:16.263 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+17-Mar-2019 23:58:34.765 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+17-Mar-2019 23:58:34.765 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+17-Mar-2019 23:58:34.770 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4b6166aa')
+17-Mar-2019 23:59:30.124 INFORMAÇÕES [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Marking servlet [index] as unavailable
+17-Mar-2019 23:59:30.125 GRAVE [http-nio-8080-exec-13] org.apache.catalina.core.StandardWrapperValve.invoke Allocate exception for servlet [index]
+ java.lang.ClassNotFoundException: controller.index
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1343)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1173)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:540)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:521)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:150)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1031)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:761)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:133)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+

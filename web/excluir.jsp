@@ -11,7 +11,7 @@
         <div class="container">
             <h2>Deletar produtos</h2>
         
-            <form action="Executa_excluir.jsp" method="post">
+            <form action="/excluir" method="POST">
             
             <div class="form-group">
                 <label>Codigo</label>

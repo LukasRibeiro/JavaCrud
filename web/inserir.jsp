@@ -11,13 +11,8 @@
         <div class="container">
             <h2>Cadastrar produtos</h2>
         
-            <form action="Executa_inserir.jsp" method="post">
-            <!--
-            <div class="form-group">
-                <label>Codigo</label>
-                <input type="text" class="form-control" placeholder="Digite codigo" name="codigo">
-            </div>
-            -->
+            <form action="/inserir" method="POST">
+                
             <div class="form-group">
                 <label>Descricao:</label>
                 <input type="text" class="form-control" placeholder="Digite a descricao:" name="descricao">

@@ -11,7 +11,7 @@
         <div class="container">
             <h2>Alterar produtos</h2>
         
-            <form action="Executa_alterar.jsp" method="post">
+            <form action="/alterar" method="POST">
             
             <div class="form-group">
                 <label>Codigo</label>

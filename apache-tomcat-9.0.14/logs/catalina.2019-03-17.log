@@ -1,0 +1,766 @@
+17-Mar-2019 15:28:59.738 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.14
+17-Mar-2019 15:28:59.743 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 6 2018 21:13:53 UTC
+17-Mar-2019 15:28:59.749 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.14.0
+17-Mar-2019 15:28:59.749 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Mar-2019 15:28:59.749 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Mar-2019 15:28:59.749 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Mar-2019 15:28:59.749 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_171\jre
+17-Mar-2019 15:28:59.750 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b11
+17-Mar-2019 15:28:59.750 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Mar-2019 15:28:59.750 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 15:28:59.750 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 15:28:59.751 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\logging.properties
+17-Mar-2019 15:28:59.751 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Mar-2019 15:28:59.751 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Lukao
+17-Mar-2019 15:28:59.751 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Mar-2019 15:28:59.751 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Mar-2019 15:28:59.752 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Mar-2019 15:28:59.752 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 15:28:59.752 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 15:28:59.752 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\temp
+17-Mar-2019 15:28:59.752 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+17-Mar-2019 15:28:59.752 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+17-Mar-2019 15:28:59.752 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17-Mar-2019 15:28:59.764 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+17-Mar-2019 15:29:00.015 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 15:29:00.485 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 15:29:00.494 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1.431] milliseconds
+17-Mar-2019 15:29:00.592 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Mar-2019 15:29:00.592 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.14]
+17-Mar-2019 15:29:00.613 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\docs]
+17-Mar-2019 15:29:01.108 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\docs] has finished in [495] ms
+17-Mar-2019 15:29:01.109 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\examples]
+17-Mar-2019 15:29:02.674 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\examples] has finished in [1.565] ms
+17-Mar-2019 15:29:02.677 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\host-manager]
+17-Mar-2019 15:29:02.790 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\host-manager] has finished in [113] ms
+17-Mar-2019 15:29:02.790 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\manager]
+17-Mar-2019 15:29:02.908 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\manager] has finished in [117] ms
+17-Mar-2019 15:29:02.908 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\ROOT]
+17-Mar-2019 15:29:02.982 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\ROOT] has finished in [73] ms
+17-Mar-2019 15:29:02.988 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 15:29:03.008 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 15:29:03.016 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [2.521] milliseconds
+17-Mar-2019 15:29:09.112 INFORMAÇÕES [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml]
+17-Mar-2019 15:29:09.114 ADVERTÊNCIA [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Mercado] in deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has been ignored
+17-Mar-2019 15:29:10.720 INFORMAÇÕES [http-nio-8080-exec-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Mar-2019 15:29:10.731 INFORMAÇÕES [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has finished in [1.619] ms
+17-Mar-2019 15:29:10.737 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Mercado]] after start() had already been called. The second call will be ignored.
+17-Mar-2019 15:32:26.417 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Mar-2019 15:32:26.417 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 15:32:26.822 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 15:32:27.155 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Mar-2019 15:32:27.256 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Mercado] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Mar-2019 15:32:27.257 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Mercado] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+17-Mar-2019 15:32:27.280 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 15:32:27.285 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 15:32:27.290 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 15:32:27.291 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 15:32:49.670 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.14
+17-Mar-2019 15:32:49.674 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 6 2018 21:13:53 UTC
+17-Mar-2019 15:32:49.681 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.14.0
+17-Mar-2019 15:32:49.682 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Mar-2019 15:32:49.682 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Mar-2019 15:32:49.682 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Mar-2019 15:32:49.682 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_171\jre
+17-Mar-2019 15:32:49.683 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b11
+17-Mar-2019 15:32:49.683 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Mar-2019 15:32:49.683 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 15:32:49.683 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 15:32:49.684 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\logging.properties
+17-Mar-2019 15:32:49.684 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Mar-2019 15:32:49.684 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Lukao
+17-Mar-2019 15:32:49.684 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Mar-2019 15:32:49.685 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Mar-2019 15:32:49.686 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Mar-2019 15:32:49.687 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 15:32:49.687 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 15:32:49.687 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\temp
+17-Mar-2019 15:32:49.687 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+17-Mar-2019 15:32:49.687 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+17-Mar-2019 15:32:49.687 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17-Mar-2019 15:32:49.700 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+17-Mar-2019 15:32:49.953 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 15:32:50.440 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 15:32:50.458 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1.641] milliseconds
+17-Mar-2019 15:32:50.522 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Mar-2019 15:32:50.522 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.14]
+17-Mar-2019 15:32:50.538 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml]
+17-Mar-2019 15:32:50.601 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Mercado] in deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has been ignored
+17-Mar-2019 15:32:53.833 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Mar-2019 15:32:53.948 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has finished in [3.410] ms
+17-Mar-2019 15:32:53.949 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\docs]
+17-Mar-2019 15:32:54.034 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\docs] has finished in [85] ms
+17-Mar-2019 15:32:54.035 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\examples]
+17-Mar-2019 15:32:55.377 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\examples] has finished in [1.342] ms
+17-Mar-2019 15:32:55.378 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\host-manager]
+17-Mar-2019 15:32:55.468 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\host-manager] has finished in [90] ms
+17-Mar-2019 15:32:55.468 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\manager]
+17-Mar-2019 15:32:55.579 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\manager] has finished in [111] ms
+17-Mar-2019 15:32:55.580 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\ROOT]
+17-Mar-2019 15:32:55.664 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\ROOT] has finished in [84] ms
+17-Mar-2019 15:32:55.673 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 15:32:55.698 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 15:32:55.706 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [5.247] milliseconds
+17-Mar-2019 15:33:00.897 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Mar-2019 15:39:52.304 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Mar-2019 15:39:52.305 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 15:39:52.724 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 15:39:53.082 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Mar-2019 15:39:53.117 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Mercado] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Mar-2019 15:39:53.118 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Mercado] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+17-Mar-2019 15:39:53.146 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 15:39:53.149 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 15:39:53.151 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 15:39:53.153 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 15:40:30.048 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.14
+17-Mar-2019 15:40:30.053 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 6 2018 21:13:53 UTC
+17-Mar-2019 15:40:30.053 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.14.0
+17-Mar-2019 15:40:30.053 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Mar-2019 15:40:30.053 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Mar-2019 15:40:30.054 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Mar-2019 15:40:30.054 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_171\jre
+17-Mar-2019 15:40:30.055 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b11
+17-Mar-2019 15:40:30.055 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Mar-2019 15:40:30.055 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 15:40:30.055 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 15:40:30.056 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\logging.properties
+17-Mar-2019 15:40:30.056 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Mar-2019 15:40:30.057 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Lukao
+17-Mar-2019 15:40:30.057 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Mar-2019 15:40:30.057 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Mar-2019 15:40:30.057 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Mar-2019 15:40:30.058 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 15:40:30.058 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 15:40:30.058 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\temp
+17-Mar-2019 15:40:30.058 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+17-Mar-2019 15:40:30.059 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+17-Mar-2019 15:40:30.059 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17-Mar-2019 15:40:30.073 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+17-Mar-2019 15:40:30.314 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 15:40:30.730 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 15:40:30.738 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1.394] milliseconds
+17-Mar-2019 15:40:30.789 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Mar-2019 15:40:30.789 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.14]
+17-Mar-2019 15:40:30.804 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml]
+17-Mar-2019 15:40:30.845 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Mercado] in deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has been ignored
+17-Mar-2019 15:40:33.882 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Mar-2019 15:40:33.975 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has finished in [3.171] ms
+17-Mar-2019 15:40:33.976 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\docs]
+17-Mar-2019 15:40:34.078 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\docs] has finished in [102] ms
+17-Mar-2019 15:40:34.079 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\examples]
+17-Mar-2019 15:40:35.221 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\examples] has finished in [1.142] ms
+17-Mar-2019 15:40:35.222 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\host-manager]
+17-Mar-2019 15:40:35.327 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\host-manager] has finished in [105] ms
+17-Mar-2019 15:40:35.327 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\manager]
+17-Mar-2019 15:40:35.418 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\manager] has finished in [91] ms
+17-Mar-2019 15:40:35.419 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\ROOT]
+17-Mar-2019 15:40:35.507 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\ROOT] has finished in [89] ms
+17-Mar-2019 15:40:35.513 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 15:40:35.534 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 15:40:35.543 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [4.803] milliseconds
+17-Mar-2019 15:40:38.364 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Mercado] has started
+17-Mar-2019 15:40:40.035 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Mar-2019 15:40:40.043 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Mercado] is completed
+17-Mar-2019 15:45:48.718 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Mar-2019 15:45:48.719 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 15:45:49.122 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 15:45:49.446 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Mar-2019 15:45:49.477 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Mercado] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Mar-2019 15:45:49.479 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Mercado] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+17-Mar-2019 15:45:49.504 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 15:45:49.509 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 15:45:49.520 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 15:45:49.522 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 15:48:58.801 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.14
+17-Mar-2019 15:48:58.807 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 6 2018 21:13:53 UTC
+17-Mar-2019 15:48:58.807 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.14.0
+17-Mar-2019 15:48:58.807 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Mar-2019 15:48:58.808 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Mar-2019 15:48:58.808 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Mar-2019 15:48:58.822 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_171\jre
+17-Mar-2019 15:48:58.823 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b11
+17-Mar-2019 15:48:58.823 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Mar-2019 15:48:58.825 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 15:48:58.825 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 15:48:58.826 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\logging.properties
+17-Mar-2019 15:48:58.826 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Mar-2019 15:48:58.827 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Lukao
+17-Mar-2019 15:48:58.827 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Mar-2019 15:48:58.828 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Mar-2019 15:48:58.828 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Mar-2019 15:48:58.828 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 15:48:58.829 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 15:48:58.829 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\temp
+17-Mar-2019 15:48:58.829 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+17-Mar-2019 15:48:58.830 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+17-Mar-2019 15:48:58.830 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17-Mar-2019 15:48:58.844 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+17-Mar-2019 15:48:59.314 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 15:49:00.284 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 15:49:00.306 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [3.005] milliseconds
+17-Mar-2019 15:49:00.390 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Mar-2019 15:49:00.391 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.14]
+17-Mar-2019 15:49:00.415 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml]
+17-Mar-2019 15:49:00.476 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Mercado] in deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has been ignored
+17-Mar-2019 15:49:04.074 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Mar-2019 15:49:04.194 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has finished in [3.778] ms
+17-Mar-2019 15:49:04.196 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\docs]
+17-Mar-2019 15:49:04.267 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\docs] has finished in [71] ms
+17-Mar-2019 15:49:04.267 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\examples]
+17-Mar-2019 15:49:05.466 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\examples] has finished in [1.199] ms
+17-Mar-2019 15:49:05.467 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\host-manager]
+17-Mar-2019 15:49:05.719 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\host-manager] has finished in [251] ms
+17-Mar-2019 15:49:05.719 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\manager]
+17-Mar-2019 15:49:05.863 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\manager] has finished in [143] ms
+17-Mar-2019 15:49:05.868 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\ROOT]
+17-Mar-2019 15:49:05.959 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\ROOT] has finished in [90] ms
+17-Mar-2019 15:49:05.968 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 15:49:05.988 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 15:49:05.997 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [5.690] milliseconds
+17-Mar-2019 15:49:09.683 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Mercado] has started
+17-Mar-2019 15:49:11.669 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Mar-2019 15:49:11.679 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Mercado] is completed
+17-Mar-2019 15:52:28.009 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Mar-2019 15:52:28.010 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 15:52:28.489 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 15:52:28.830 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Mar-2019 15:52:28.864 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Mercado] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Mar-2019 15:52:28.865 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Mercado] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+17-Mar-2019 15:52:28.899 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 15:52:28.905 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 15:52:28.907 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 15:52:28.908 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 16:26:14.755 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.14
+17-Mar-2019 16:26:14.762 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 6 2018 21:13:53 UTC
+17-Mar-2019 16:26:14.762 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.14.0
+17-Mar-2019 16:26:14.762 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Mar-2019 16:26:14.763 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Mar-2019 16:26:14.763 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Mar-2019 16:26:14.763 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_171\jre
+17-Mar-2019 16:26:14.763 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b11
+17-Mar-2019 16:26:14.763 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Mar-2019 16:26:14.763 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 16:26:14.763 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 16:26:14.764 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\logging.properties
+17-Mar-2019 16:26:14.764 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Mar-2019 16:26:14.764 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Lukao
+17-Mar-2019 16:26:14.764 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Mar-2019 16:26:14.773 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Mar-2019 16:26:14.774 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Mar-2019 16:26:14.774 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 16:26:14.775 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 16:26:14.790 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\temp
+17-Mar-2019 16:26:14.790 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+17-Mar-2019 16:26:14.791 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+17-Mar-2019 16:26:14.791 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17-Mar-2019 16:26:14.804 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+17-Mar-2019 16:26:15.032 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 16:26:15.464 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 16:26:15.473 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1.385] milliseconds
+17-Mar-2019 16:26:15.543 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Mar-2019 16:26:15.543 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.14]
+17-Mar-2019 16:26:15.558 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml]
+17-Mar-2019 16:26:15.618 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Mercado] in deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has been ignored
+17-Mar-2019 16:26:15.666 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml]
+ java.lang.IllegalStateException: Error starting child
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:716)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:631)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1832)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:526)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:425)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1577)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:424)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:367)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:934)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:831)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1382)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1372)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:907)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:423)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:933)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:637)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@b7dd107]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4778)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4913)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:713)
+	... 37 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\Lucas Ribeiro\Desktop\Mercado\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 41 more
+
+17-Mar-2019 16:26:15.687 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has finished in [130] ms
+17-Mar-2019 16:26:15.719 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\docs]
+17-Mar-2019 16:26:16.269 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\docs] has finished in [551] ms
+17-Mar-2019 16:26:16.270 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\examples]
+17-Mar-2019 16:26:17.148 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\examples] has finished in [878] ms
+17-Mar-2019 16:26:17.149 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\host-manager]
+17-Mar-2019 16:26:17.230 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\host-manager] has finished in [81] ms
+17-Mar-2019 16:26:17.234 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\manager]
+17-Mar-2019 16:26:17.318 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\manager] has finished in [85] ms
+17-Mar-2019 16:26:17.319 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\ROOT]
+17-Mar-2019 16:26:17.373 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\ROOT] has finished in [53] ms
+17-Mar-2019 16:26:17.384 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 16:26:17.400 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 16:26:17.407 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [1.933] milliseconds
+17-Mar-2019 16:26:21.862 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Mercado]
+17-Mar-2019 16:26:21.971 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml]
+17-Mar-2019 16:26:21.972 ADVERTÊNCIA [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Mercado] in deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has been ignored
+17-Mar-2019 16:26:23.681 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Mar-2019 16:26:23.693 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has finished in [1.722] ms
+17-Mar-2019 16:26:23.700 INFORMAÇÕES [http-nio-8080-exec-3] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Mercado]] after start() had already been called. The second call will be ignored.
+17-Mar-2019 16:29:16.134 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Mar-2019 16:29:16.134 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 16:29:16.740 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 16:29:17.115 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Mar-2019 16:29:17.167 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Mercado] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Mar-2019 16:29:17.168 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Mercado] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+17-Mar-2019 16:29:17.193 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 16:29:17.199 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 16:29:17.204 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 16:29:17.206 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 16:32:50.216 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.14
+17-Mar-2019 16:32:50.222 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 6 2018 21:13:53 UTC
+17-Mar-2019 16:32:50.223 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.14.0
+17-Mar-2019 16:32:50.224 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Mar-2019 16:32:50.224 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Mar-2019 16:32:50.225 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Mar-2019 16:32:50.225 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_171\jre
+17-Mar-2019 16:32:50.225 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b11
+17-Mar-2019 16:32:50.226 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Mar-2019 16:32:50.226 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 16:32:50.226 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 16:32:50.227 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\logging.properties
+17-Mar-2019 16:32:50.227 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Mar-2019 16:32:50.227 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Lukao
+17-Mar-2019 16:32:50.227 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Mar-2019 16:32:50.227 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Mar-2019 16:32:50.228 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Mar-2019 16:32:50.229 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 16:32:50.229 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 16:32:50.229 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\temp
+17-Mar-2019 16:32:50.229 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+17-Mar-2019 16:32:50.229 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+17-Mar-2019 16:32:50.229 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17-Mar-2019 16:32:50.241 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+17-Mar-2019 16:32:50.538 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 16:32:51.024 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 16:32:51.035 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1.554] milliseconds
+17-Mar-2019 16:32:51.119 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Mar-2019 16:32:51.120 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.14]
+17-Mar-2019 16:32:51.146 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml]
+17-Mar-2019 16:32:51.214 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Mercado] in deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has been ignored
+17-Mar-2019 16:32:53.758 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Mar-2019 16:32:53.860 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has finished in [2.714] ms
+17-Mar-2019 16:32:53.861 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\docs]
+17-Mar-2019 16:32:53.960 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\docs] has finished in [99] ms
+17-Mar-2019 16:32:53.960 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\examples]
+17-Mar-2019 16:32:54.808 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\examples] has finished in [848] ms
+17-Mar-2019 16:32:54.808 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\host-manager]
+17-Mar-2019 16:32:54.887 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\host-manager] has finished in [79] ms
+17-Mar-2019 16:32:54.888 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\manager]
+17-Mar-2019 16:32:54.959 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\manager] has finished in [72] ms
+17-Mar-2019 16:32:54.959 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\ROOT]
+17-Mar-2019 16:32:55.014 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\ROOT] has finished in [55] ms
+17-Mar-2019 16:32:55.020 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 16:32:55.038 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 16:32:55.045 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [4.010] milliseconds
+17-Mar-2019 16:32:57.165 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Mercado]
+17-Mar-2019 16:32:57.236 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml]
+17-Mar-2019 16:32:57.237 ADVERTÊNCIA [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Mercado] in deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has been ignored
+17-Mar-2019 16:32:59.051 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Mar-2019 16:32:59.058 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has finished in [1.822] ms
+17-Mar-2019 16:32:59.067 INFORMAÇÕES [http-nio-8080-exec-2] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Mercado]] after start() had already been called. The second call will be ignored.
+17-Mar-2019 16:34:22.613 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Mar-2019 16:34:22.614 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 16:34:22.957 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 16:34:23.281 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Mar-2019 16:34:23.317 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Mercado] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Mar-2019 16:34:23.318 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Mercado] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+17-Mar-2019 16:34:23.348 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 16:34:23.352 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 16:34:23.355 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 16:34:23.359 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 16:37:09.074 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.14
+17-Mar-2019 16:37:09.084 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 6 2018 21:13:53 UTC
+17-Mar-2019 16:37:09.084 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.14.0
+17-Mar-2019 16:37:09.085 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Mar-2019 16:37:09.085 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Mar-2019 16:37:09.085 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Mar-2019 16:37:09.085 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_171\jre
+17-Mar-2019 16:37:09.085 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b11
+17-Mar-2019 16:37:09.085 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Mar-2019 16:37:09.086 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 16:37:09.086 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 16:37:09.086 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\logging.properties
+17-Mar-2019 16:37:09.086 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Mar-2019 16:37:09.086 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Lukao
+17-Mar-2019 16:37:09.086 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Mar-2019 16:37:09.087 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Mar-2019 16:37:09.087 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Mar-2019 16:37:09.087 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 16:37:09.087 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 16:37:09.087 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\temp
+17-Mar-2019 16:37:09.088 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+17-Mar-2019 16:37:09.088 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+17-Mar-2019 16:37:09.088 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17-Mar-2019 16:37:09.096 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+17-Mar-2019 16:37:09.315 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 16:37:09.742 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 16:37:09.753 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1.261] milliseconds
+17-Mar-2019 16:37:09.827 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Mar-2019 16:37:09.828 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.14]
+17-Mar-2019 16:37:09.851 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml]
+17-Mar-2019 16:37:09.905 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Mercado] in deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has been ignored
+17-Mar-2019 16:37:12.217 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Mar-2019 16:37:12.306 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has finished in [2.455] ms
+17-Mar-2019 16:37:12.307 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\docs]
+17-Mar-2019 16:37:12.360 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\docs] has finished in [53] ms
+17-Mar-2019 16:37:12.361 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\examples]
+17-Mar-2019 16:37:13.139 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\examples] has finished in [778] ms
+17-Mar-2019 16:37:13.140 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\host-manager]
+17-Mar-2019 16:37:13.334 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\host-manager] has finished in [193] ms
+17-Mar-2019 16:37:13.334 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\manager]
+17-Mar-2019 16:37:13.415 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\manager] has finished in [81] ms
+17-Mar-2019 16:37:13.415 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\ROOT]
+17-Mar-2019 16:37:13.470 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\ROOT] has finished in [55] ms
+17-Mar-2019 16:37:13.476 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 16:37:13.490 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 16:37:13.497 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [3.742] milliseconds
+17-Mar-2019 16:37:15.297 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Mercado]
+17-Mar-2019 16:37:15.367 INFORMAÇÕES [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml]
+17-Mar-2019 16:37:15.368 ADVERTÊNCIA [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Mercado] in deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has been ignored
+17-Mar-2019 16:37:17.050 INFORMAÇÕES [http-nio-8080-exec-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Mar-2019 16:37:17.064 INFORMAÇÕES [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has finished in [1.698] ms
+17-Mar-2019 16:37:17.072 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Mercado]] after start() had already been called. The second call will be ignored.
+17-Mar-2019 16:53:12.688 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Mar-2019 16:53:12.689 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 16:53:13.038 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 16:53:13.367 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Mar-2019 16:53:13.408 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Mercado] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Mar-2019 16:53:13.409 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Mercado] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+17-Mar-2019 16:53:13.437 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 16:53:13.440 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 16:53:13.443 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 16:53:13.445 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 17:28:11.195 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.14
+17-Mar-2019 17:28:11.200 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 6 2018 21:13:53 UTC
+17-Mar-2019 17:28:11.205 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.14.0
+17-Mar-2019 17:28:11.205 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Mar-2019 17:28:11.206 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Mar-2019 17:28:11.206 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Mar-2019 17:28:11.206 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_171\jre
+17-Mar-2019 17:28:11.206 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b11
+17-Mar-2019 17:28:11.206 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Mar-2019 17:28:11.206 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 17:28:11.207 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 17:28:11.207 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\logging.properties
+17-Mar-2019 17:28:11.207 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Mar-2019 17:28:11.207 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Lukao
+17-Mar-2019 17:28:11.208 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Mar-2019 17:28:11.208 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Mar-2019 17:28:11.208 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Mar-2019 17:28:11.208 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 17:28:11.208 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14
+17-Mar-2019 17:28:11.208 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\temp
+17-Mar-2019 17:28:11.208 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+17-Mar-2019 17:28:11.209 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+17-Mar-2019 17:28:11.209 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17-Mar-2019 17:28:11.217 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+17-Mar-2019 17:28:11.502 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 17:28:11.966 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 17:28:11.973 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1.371] milliseconds
+17-Mar-2019 17:28:12.023 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Mar-2019 17:28:12.023 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.14]
+17-Mar-2019 17:28:12.041 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml]
+17-Mar-2019 17:28:12.081 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Mercado] in deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has been ignored
+17-Mar-2019 17:28:14.207 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Mar-2019 17:28:14.338 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has finished in [2.297] ms
+17-Mar-2019 17:28:14.340 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\docs]
+17-Mar-2019 17:28:14.433 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\docs] has finished in [93] ms
+17-Mar-2019 17:28:14.434 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\examples]
+17-Mar-2019 17:28:15.281 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\examples] has finished in [847] ms
+17-Mar-2019 17:28:15.282 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\host-manager]
+17-Mar-2019 17:28:15.370 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\host-manager] has finished in [88] ms
+17-Mar-2019 17:28:15.370 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\manager]
+17-Mar-2019 17:28:15.442 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\manager] has finished in [72] ms
+17-Mar-2019 17:28:15.443 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\ROOT]
+17-Mar-2019 17:28:15.522 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\webapps\ROOT] has finished in [79] ms
+17-Mar-2019 17:28:15.528 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 17:28:15.547 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 17:28:15.556 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [3.582] milliseconds
+17-Mar-2019 17:28:20.260 INFORMAÇÕES [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Mercado]
+17-Mar-2019 17:28:20.329 INFORMAÇÕES [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml]
+17-Mar-2019 17:28:20.330 ADVERTÊNCIA [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Mercado] in deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has been ignored
+17-Mar-2019 17:28:21.959 INFORMAÇÕES [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Mar-2019 17:28:21.973 INFORMAÇÕES [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has finished in [1.644] ms
+17-Mar-2019 17:28:21.981 INFORMAÇÕES [http-nio-8080-exec-5] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Mercado]] after start() had already been called. The second call will be ignored.
+17-Mar-2019 17:32:53.418 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Mar-2019 17:32:53.419 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 17:32:53.766 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 17:32:54.083 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Mar-2019 17:32:54.112 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Mercado] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Mar-2019 17:32:54.113 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Mercado] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+17-Mar-2019 17:32:54.143 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 17:32:54.147 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 17:32:54.150 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 17:32:54.151 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 23:27:24.742 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.14
+17-Mar-2019 23:27:24.749 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 6 2018 21:13:53 UTC
+17-Mar-2019 23:27:24.750 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.14.0
+17-Mar-2019 23:27:24.750 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Mar-2019 23:27:24.750 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Mar-2019 23:27:24.750 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Mar-2019 23:27:24.750 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_171\jre
+17-Mar-2019 23:27:24.750 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b11
+17-Mar-2019 23:27:24.751 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Mar-2019 23:27:24.751 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14
+17-Mar-2019 23:27:24.751 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14
+17-Mar-2019 23:27:24.751 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\conf\logging.properties
+17-Mar-2019 23:27:24.752 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Mar-2019 23:27:24.752 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Lukao
+17-Mar-2019 23:27:24.752 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Mar-2019 23:27:24.752 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Mar-2019 23:27:24.752 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Mar-2019 23:27:24.756 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14
+17-Mar-2019 23:27:24.756 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14
+17-Mar-2019 23:27:24.757 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\temp
+17-Mar-2019 23:27:24.757 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+17-Mar-2019 23:27:24.757 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+17-Mar-2019 23:27:24.757 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17-Mar-2019 23:27:24.769 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+17-Mar-2019 23:27:25.027 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 23:27:25.536 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 23:27:25.556 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1.522] milliseconds
+17-Mar-2019 23:27:25.636 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Mar-2019 23:27:25.637 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.14]
+17-Mar-2019 23:27:25.656 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml]
+17-Mar-2019 23:27:25.710 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Mercado] in deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has been ignored
+17-Mar-2019 23:27:28.199 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Mar-2019 23:27:28.305 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has finished in [2.649] ms
+17-Mar-2019 23:27:28.306 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\docs]
+17-Mar-2019 23:27:28.386 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\docs] has finished in [79] ms
+17-Mar-2019 23:27:28.386 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\examples]
+17-Mar-2019 23:27:29.405 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\examples] has finished in [1.019] ms
+17-Mar-2019 23:27:29.406 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\host-manager]
+17-Mar-2019 23:27:29.500 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\host-manager] has finished in [94] ms
+17-Mar-2019 23:27:29.500 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\manager]
+17-Mar-2019 23:27:29.574 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\manager] has finished in [74] ms
+17-Mar-2019 23:27:29.575 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\ROOT]
+17-Mar-2019 23:27:29.654 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\ROOT] has finished in [79] ms
+17-Mar-2019 23:27:29.660 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 23:27:29.677 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 23:27:29.686 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [4.130] milliseconds
+17-Mar-2019 23:27:34.519 INFORMAÇÕES [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Mercado]
+17-Mar-2019 23:27:34.652 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml]
+17-Mar-2019 23:27:34.653 ADVERTÊNCIA [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Mercado] in deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has been ignored
+17-Mar-2019 23:27:36.614 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Mar-2019 23:27:36.624 INFORMAÇÕES [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has finished in [1.973] ms
+17-Mar-2019 23:27:36.632 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Mercado]] after start() had already been called. The second call will be ignored.
+17-Mar-2019 23:27:39.742 INFORMAÇÕES [Catalina-utility-1] org.apache.catalina.webresources.Cache.backgroundProcess The background cache eviction process was unable to free [10] percent of the cache for Context [/Mercado] - consider increasing the maximum size of the cache. After eviction approximately [9,380] KB of data remained in the cache.
+17-Mar-2019 23:28:49.506 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Mar-2019 23:28:49.507 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 23:28:49.914 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 23:28:50.293 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Mar-2019 23:28:50.321 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [Mercado] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+17-Mar-2019 23:28:50.322 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [Mercado] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+17-Mar-2019 23:28:50.389 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 23:28:50.396 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 23:28:50.402 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 23:28:50.408 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 23:56:20.807 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.14
+17-Mar-2019 23:56:20.814 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 6 2018 21:13:53 UTC
+17-Mar-2019 23:56:20.814 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.14.0
+17-Mar-2019 23:56:20.814 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Mar-2019 23:56:20.814 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Mar-2019 23:56:20.815 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Mar-2019 23:56:20.815 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_171\jre
+17-Mar-2019 23:56:20.815 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b11
+17-Mar-2019 23:56:20.815 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Mar-2019 23:56:20.815 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14
+17-Mar-2019 23:56:20.816 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14
+17-Mar-2019 23:56:20.816 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\conf\logging.properties
+17-Mar-2019 23:56:20.816 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Mar-2019 23:56:20.816 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Lukao
+17-Mar-2019 23:56:20.816 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Mar-2019 23:56:20.817 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Mar-2019 23:56:20.817 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Mar-2019 23:56:20.821 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14
+17-Mar-2019 23:56:20.821 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14
+17-Mar-2019 23:56:20.822 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\temp
+17-Mar-2019 23:56:20.822 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+17-Mar-2019 23:56:20.823 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+17-Mar-2019 23:56:20.823 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17-Mar-2019 23:56:20.836 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+17-Mar-2019 23:56:21.085 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 23:56:21.597 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 23:56:21.607 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1.494] milliseconds
+17-Mar-2019 23:56:21.676 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Mar-2019 23:56:21.677 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.14]
+17-Mar-2019 23:56:21.714 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml]
+17-Mar-2019 23:56:21.751 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Mercado] in deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has been ignored
+17-Mar-2019 23:56:24.456 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Mar-2019 23:56:24.551 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has finished in [2.837] ms
+17-Mar-2019 23:56:24.552 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\docs]
+17-Mar-2019 23:56:24.616 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\docs] has finished in [63] ms
+17-Mar-2019 23:56:24.616 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\examples]
+17-Mar-2019 23:56:25.456 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\examples] has finished in [840] ms
+17-Mar-2019 23:56:25.457 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\host-manager]
+17-Mar-2019 23:56:25.562 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\host-manager] has finished in [104] ms
+17-Mar-2019 23:56:25.562 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\manager]
+17-Mar-2019 23:56:25.653 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\manager] has finished in [91] ms
+17-Mar-2019 23:56:25.654 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\ROOT]
+17-Mar-2019 23:56:25.712 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\ROOT] has finished in [58] ms
+17-Mar-2019 23:56:25.718 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 23:56:25.734 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 23:56:25.742 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [4.134] milliseconds
+17-Mar-2019 23:56:30.067 INFORMAÇÕES [http-nio-8080-exec-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Mar-2019 23:57:29.824 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Mercado] has started
+17-Mar-2019 23:57:31.751 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Mar-2019 23:57:31.762 INFORMAÇÕES [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Mercado] is completed
+17-Mar-2019 23:58:15.396 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Mar-2019 23:58:15.397 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 23:58:15.785 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 23:58:16.226 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Mar-2019 23:58:16.279 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 23:58:16.287 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 23:58:16.295 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 23:58:16.298 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 23:58:29.818 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.14
+17-Mar-2019 23:58:29.824 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 6 2018 21:13:53 UTC
+17-Mar-2019 23:58:29.834 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.14.0
+17-Mar-2019 23:58:29.835 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Mar-2019 23:58:29.836 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Mar-2019 23:58:29.837 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Mar-2019 23:58:29.837 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_171\jre
+17-Mar-2019 23:58:29.837 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b11
+17-Mar-2019 23:58:29.837 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Mar-2019 23:58:29.838 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14
+17-Mar-2019 23:58:29.838 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14
+17-Mar-2019 23:58:29.839 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\conf\logging.properties
+17-Mar-2019 23:58:29.839 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Mar-2019 23:58:29.839 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Lukao
+17-Mar-2019 23:58:29.840 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Mar-2019 23:58:29.840 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Mar-2019 23:58:29.840 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -agentlib:jdwp=transport=dt_shmem,address=tomcat_shared_memory_id,server=y,suspend=n
+17-Mar-2019 23:58:29.841 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Mar-2019 23:58:29.841 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14
+17-Mar-2019 23:58:29.841 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14
+17-Mar-2019 23:58:29.841 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\temp
+17-Mar-2019 23:58:29.842 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+17-Mar-2019 23:58:29.842 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+17-Mar-2019 23:58:29.842 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17-Mar-2019 23:58:29.855 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+17-Mar-2019 23:58:30.113 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 23:58:30.640 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 23:58:30.696 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [1.681] milliseconds
+17-Mar-2019 23:58:30.803 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Mar-2019 23:58:30.803 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.14]
+17-Mar-2019 23:58:30.881 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml]
+17-Mar-2019 23:58:30.924 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Mercado] in deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has been ignored
+17-Mar-2019 23:58:33.675 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Mar-2019 23:58:33.781 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has finished in [2.900] ms
+17-Mar-2019 23:58:33.782 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\docs]
+17-Mar-2019 23:58:33.849 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\docs] has finished in [67] ms
+17-Mar-2019 23:58:33.849 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\examples]
+17-Mar-2019 23:58:34.787 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\examples] has finished in [938] ms
+17-Mar-2019 23:58:34.788 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\host-manager]
+17-Mar-2019 23:58:34.879 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\host-manager] has finished in [91] ms
+17-Mar-2019 23:58:34.879 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\manager]
+17-Mar-2019 23:58:34.961 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\manager] has finished in [82] ms
+17-Mar-2019 23:58:34.962 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\ROOT]
+17-Mar-2019 23:58:35.030 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\webapps\ROOT] has finished in [68] ms
+17-Mar-2019 23:58:35.037 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Mar-2019 23:58:35.061 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Mar-2019 23:58:35.070 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [4.372] milliseconds
+17-Mar-2019 23:58:38.510 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Mercado]
+17-Mar-2019 23:58:38.686 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml]
+17-Mar-2019 23:58:38.688 ADVERTÊNCIA [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Mercado] in deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has been ignored
+17-Mar-2019 23:59:29.422 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Mar-2019 23:59:29.431 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Lucas Ribeiro\Desktop\JavaCrud\apache-tomcat-9.0.14\conf\Catalina\localhost\Mercado.xml] has finished in [50.745] ms
+17-Mar-2019 23:59:29.452 INFORMAÇÕES [http-nio-8080-exec-6] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Mercado]] after start() had already been called. The second call will be ignored.
+17-Mar-2019 23:59:55.183 INFORMAÇÕES [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/Mercado]
+17-Mar-2019 23:59:55.184 INFORMAÇÕES [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Mercado] has started
+17-Mar-2019 23:59:57.544 INFORMAÇÕES [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Mar-2019 23:59:57.554 INFORMAÇÕES [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Mercado] is completed
+17-Mar-2019 23:59:57.565 INFORMAÇÕES [Catalina-utility-1] org.apache.catalina.webresources.Cache.backgroundProcess The background cache eviction process was unable to free [10] percent of the cache for Context [/Mercado] - consider increasing the maximum size of the cache. After eviction approximately [9,549] KB of data remained in the cache.

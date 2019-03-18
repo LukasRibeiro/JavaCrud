@@ -15,7 +15,7 @@
         <div class="container">
             <h2>Todos os produtos cadastrados</h2>
         
-            <form action="index.jsp" method="post">
+            <form action="index.jsp" method="POST">
                 
                 <div class="form-group">
                     <label>Descricao:</label>
@@ -25,8 +25,6 @@
                 <a type="button" class="btn btn-success" href="inserir.jsp">Novo produto</a>
             </form>
         </div>
-
-            
             <%
                 try{
                     out.print("<table>");
