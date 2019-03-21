@@ -13,61 +13,64 @@
     
     <body>
         <div class="container">
-            <h2>Todos os produtos cadastrados</h2>
+            <h2>Produtos Cadastrados</h2>
         
             <form action="index.jsp" method="POST">
                 
                 <div class="form-group">
                     <label>Pesquisar por produtos:</label>
-                    <input type="text" class="form-control" placeholder="Digite o produto: " name="descricao">
+                    <input type="text" class="form-control col-sm-5" placeholder="Descricao do produto: " name="descricao">
                 </div>    
-                <button type="submit" class="btn btn-success">Listar todos</button>
+                <button type="submit" class="btn btn-success">Pesquisar</button>
                 <a type="button" class="btn btn-success" href="inserir.jsp">Novo produto</a>
             </form>
-        </div>
-            <%
-                try{
-                    out.print("<table>");
-                    out.print("<tr>");
-                    
-                    out.println("<th>Codigo</th><th>Descricao</th><th>Preco</th><th>Editar</th><th>Excluir</th>");
-                    
-                    ProdutoDaoImpl prd = new ProdutoDaoImpl();
-                    
-                    if(request.getParameter("descricao") == " " || request.getParameter("descricao") == null){
-                        ArrayList<Produto> lista = prd.listarTodos();
+            
+            <fildset>
+                <legend class='mt-5'><strong>Lista de produtos cadastrados</strong></legend>
+                <table aling="center" border="2px" width="80%">
+                    <tr>
+                        <th>Codigo</th>
+                        <th>Descrição</th>
+                        <th>Preço</th>
+                        <th>Alterar</th>
+                        <th>Deletar</th>
+                    </tr>
+                    <%
+                        ProdutoDaoImpl prd = new ProdutoDaoImpl();
                         
-                        for(int num = 0; num < lista.size(); num++){
-                            out.print("<tr>");
+                        if(request.getParameter("descricao") == " " || request.getParameter("descricao") == null){
+                            ArrayList<Produto> lista = prd.listarTodos();
                             
-                            out.print("<td>"+lista.get(num).getCodigo_produto()+"</td>");
-                            out.print("<td>"+lista.get(num).getDescricao_produto()+"</td>");
-                            out.print("<td>"+lista.get(num).getPreco_produto()+"</td>");
-                            out.print("<td><a href='alterar.jsp?codigo="+lista.get(num).getCodigo_produto()+"&descricao="+lista.get(num).getDescricao_produto()+"&preco="+lista.get(num).getPreco_produto()+" '>Alterar</a></td>");
-                            out.print("<td><a href='excluir.jsp?codigo="+lista.get(num).getCodigo_produto()+"&descricao="+lista.get(num).getDescricao_produto()+"'>Excluir</a></td>");
-  
-                            out.print("</tr>");
+                            for(int i = 0; i < lista.size(); i++){
+                    %>
+                    <tr>
+                        <th><%=lista.get(i).getCodigo_produto()%></th>
+                        <th><%=lista.get(i).getDescricao_produto()%></th>
+                        <th><%=lista.get(i).getPreco_produto()%></th>
+                        <th><a href='alterar.jsp?codigo=<%=lista.get(i).getCodigo_produto()%>"&descricao=<%=lista.get(i).getDescricao_produto()%>"&preco=<%=lista.get(i).getPreco_produto()%>" '>Alterar</a></th>
+                        <th><a href='excluir.jsp?codigo=<%=lista.get(i).getCodigo_produto()%>"&descricao=<%=lista.get(i).getDescricao_produto()%>"'>Excluir</a></th>
+                    </tr>
+                    <%
+                                }
+                            }
+                        else{
+                            ArrayList<Produto> lista = prd.listarTodosDescricao(request.getParameter("descricao"));
+                            for(int i = 0; i < lista.size(); i++){
+                    %>
+                    <tr>
+                        <th><%=lista.get(i).getCodigo_produto()%></th>
+                        <th><%=lista.get(i).getDescricao_produto()%></th>
+                        <th><%=lista.get(i).getPreco_produto()%></th>
+                        <th><a href='alterar.jsp?codigo=<%=lista.get(i).getCodigo_produto()%>"&descricao=<%=lista.get(i).getDescricao_produto()%>"&preco=<%=lista.get(i).getPreco_produto()%>" '>Alterar</a></th>
+                        <th><a href='excluir.jsp?codigo=<%=lista.get(i).getCodigo_produto()%>"&descricao=<%=lista.get(i).getDescricao_produto()%>"'>Excluir</a></th>
+                    </tr>
+                    
+                    <%
+                            }
                         }
-                    }
-                    else{
-                        ArrayList<Produto> lista = prd.listarTodosDescricao(request.getParameter("descricao"));
-                        for(int num = 0; num < lista.size(); num++){
-                            out.print("<tr>");
-                          
-                            out.print("<td>"+lista.get(num).getCodigo_produto()+"</td>");
-                            out.print("<td>"+lista.get(num).getDescricao_produto()+"</td>");
-                            out.print("<td>"+lista.get(num).getPreco_produto()+"</td>");
-                            out.print("<td><a href='alterar.jsp?codigo="+lista.get(num).getCodigo_produto()+"&descricao="+lista.get(num).getDescricao_produto()+"&preco="+lista.get(num).getPreco_produto()+" '>Alterar</a></td>");
-                            out.print("<td><a href='excluir.jsp?codigo="+lista.get(num).getCodigo_produto()+"&descricao="+lista.get(num).getDescricao_produto()+"'>Excluir</a></td>");
-  
-                            out.print("</tr>");
-                        }   
-                    }
-                    out.print("</tr>");
-                    out.print("</table>");   
-                }catch(Exception erro){
-                    throw new RuntimeException("", erro);
-                }
-            %>
+                    %>
+                </table>
+            </fildset>
+        </div>
     </body>
 </html>

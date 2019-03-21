@@ -15,12 +15,12 @@
                 
             <div class="form-group">
                 <label>Descricao:</label>
-                <input type="text" class="form-control" placeholder="Digite a descricao:" name="descricao">
+                <input type="text" class="form-control col-sm-5" placeholder="Digite a descricao:" name="descricao">
             </div>
                 
             <div class="form-group">
                 <label>Preco:</label>
-                <input type="number" class="form-control" placeholder="Digite preco:" name="preco">
+                <input type="number" class="form-control col-sm-5" placeholder="Digite preco:" name="preco">
             </div>
            
             <button type="submit" class="btn btn-success">Cadastrar produto</button>

@@ -15,12 +15,12 @@
             
             <div class="form-group">
                 <label>Codigo</label>
-                <input type="text" class="form-control" placeholder="Digite codigo" name="codigo" value="<%=request.getParameter("codigo")%>">
+                <input type="text" class="form-control col-sm-5" placeholder="Digite codigo" name="codigo" value="<%=request.getParameter("codigo")%>">
             </div>
             
             <div class="form-group">
                 <label>Descricao:</label>
-                <input type="text" class="form-control" placeholder="Digite a descricao:" name="descricao" value="<%=request.getParameter("descricao")%>">
+                <input type="text" class="form-control col-sm-5" placeholder="Digite a descricao:" name="descricao" value="<%=request.getParameter("descricao")%>">
             </div>
            
             <button type="submit" class="btn btn-danger">Deletar produto</button>
